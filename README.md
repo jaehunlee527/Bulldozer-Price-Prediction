@@ -8,10 +8,18 @@ Data.zip is compressed CSV files containing train and valid set files.
 
 #### EDA
 Each row in the trainset had 52 columns of features. They include sales information such as sale date and auctioneer ID as well as product information like model ID. 
+
 <p align="center">
   <img src="images/corr_plot.JPG" width="600" height="350">
 </p>
+
 The target 'SalePrice' did not display particular correlation to numerical columns, except for the 'YearMade'. This finding enlarges the significance of categorical columns in the price prediction. 
+
+<p align="center">
+  <img src="images/cat_corr.JPG" width="600" height="350">
+</p>
+
+The plotting between categorical values and SalePrice revealed some of strong correlations between two.
 
 #### Imputation
 For numerical columns, some numbers of 'YearMade' feature had value == 1000, which should be considered as missing. I created a dictionary of modelID: mode of yearmade, and replaced these missing entries.
