@@ -36,4 +36,4 @@ I used random forest regressor and XGB regressor. Random forest performed slight
   <img src="images/rf_rmsle.JPG" width="600" height="400">
 </p>
 
-Since the Kaggle competition ended several years ago, I have no ways to compare the model performances to those of other people. However, 
+Since the Kaggle competition ended several years ago, I have no ways to compare the model performances to those of other people. However, my score on valid set is comparable to the top scores on the leader board. 
