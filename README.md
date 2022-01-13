@@ -7,7 +7,10 @@ Data.zip is compressed CSV files containing train and valid set files.
 ### Summary
 
 #### EDA
-Each row in the trainset had 
+Each row in the trainset had 52 columns of features. They include sales information such as sale date and auctioneer ID as well as product information like model ID. 
+<p align="center">
+  <img src="images/corr_plot.JPG" width="200" height="150">
+</p>
 
 #### Imputation
 For numerical columns, some numbers of 'YearMade' feature had value == 1000, which should be considered as missing. I created a dictionary of modelID: mode of yearmade, and replaced these missing entries.
