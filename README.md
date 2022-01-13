@@ -9,7 +9,7 @@ Data.zip is compressed CSV files containing train and valid set files.
 #### EDA
 Each row in the trainset had 52 columns of features. They include sales information such as sale date and auctioneer ID as well as product information like model ID. 
 <p align="center">
-  <img src="images/corr_plot.JPG" width="400" height="350">
+  <img src="images/corr_plot.JPG" width="600" height="350">
 </p>
 
 #### Imputation
