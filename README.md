@@ -11,6 +11,7 @@ Each row in the trainset had 52 columns of features. They include sales informat
 <p align="center">
   <img src="images/corr_plot.JPG" width="600" height="350">
 </p>
+The target 'SalePrice' did not display particular correlation to numerical columns, except for the 'YearMade'. This finding enlarges the significance of categorical columns in the price prediction. 
 
 #### Imputation
 For numerical columns, some numbers of 'YearMade' feature had value == 1000, which should be considered as missing. I created a dictionary of modelID: mode of yearmade, and replaced these missing entries.
@@ -22,4 +23,7 @@ For any categorical columns with number of unique values fewer or equal to 4, I 
 
 #### Modeling
 
+<p align="center">
+  <img src="images/rf_rmsle.JPG" width="600" height="400">
+</p>
 
